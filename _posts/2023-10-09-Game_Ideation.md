@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Game Ideation
-description: Example Blog!!!  This shows planning and notes from hacks.
+description: Our plans for our passion project
 type: hacks
 courses: { compsci: {week: 1} }
 ---
