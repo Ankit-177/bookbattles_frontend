@@ -7,14 +7,9 @@ baseurl: "/frontend_shared"
 remote_theme: jekyll/minima
 minima:
   social_links:
-<<<<<<< HEAD
     - { platform: github, user_url: "https://github.com/nighthawkcoders"}
     - { platform: github, user_url: "https://github.com/Ankit-177"}
     - { platform: github, user_url: "https://github.com/varunm532"}
-=======
-    - { platform: github, user_url: "https://github.com/varunm532"}
-    - { platform: github, user_url: "https://github.com/Ankit-177"}
->>>>>>> e835176773cb075844c727a935c0066f90c4ff3e
     - { platform: github, user_url: "https://github.com/nikkihekmat"}
     - { platform: github, user_url: "https://github.com/mhr77777"}
 # remote_theme: pages-themes/dinky@v0.2.0
