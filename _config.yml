@@ -3,13 +3,18 @@ description: "August 2023 to June 2024"
 owner_name: Tirth Thakkar
 github_username: Tirth-Thakkar
 github_repo: "Nighthawk-Pages"
-baseurl: "/Nighthawk-Pages"
+baseurl: "/frontend_shared"
 remote_theme: jekyll/minima
 minima:
   social_links:
+<<<<<<< HEAD
     - { platform: github, user_url: "https://github.com/nighthawkcoders"}
     - { platform: github, user_url: "https://github.com/Ankit-177"}
     - { platform: github, user_url: "https://github.com/varunm532"}
+=======
+    - { platform: github, user_url: "https://github.com/varunm532"}
+    - { platform: github, user_url: "https://github.com/Ankit-177"}
+>>>>>>> e835176773cb075844c727a935c0066f90c4ff3e
     - { platform: github, user_url: "https://github.com/nikkihekmat"}
     - { platform: github, user_url: "https://github.com/mhr77777"}
 # remote_theme: pages-themes/dinky@v0.2.0
