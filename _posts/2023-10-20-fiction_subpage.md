@@ -5,9 +5,9 @@ comments : true
 title: Basics of HTML Guide
 description: An introduction to basic HTML, and resources to learn more.
 type: ccc
-permalink: /basics/fantasy
+permalink: /basics/fiction
 ---
 
 {% include nav_sub.html %}
 
-### Fantasy
+### Fiction
