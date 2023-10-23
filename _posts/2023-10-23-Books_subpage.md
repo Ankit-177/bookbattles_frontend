@@ -8,7 +8,7 @@ type: ccc
 permalink: /basics/books
 ---
 
-{% include nav_basics.html %}
+{% include nav_basics_og.html %}
 
 <table>
     <tr>
