@@ -8,6 +8,6 @@ type: ccc
 permalink: /basics/non_fiction
 ---
 
-{% include nav_sub.html %}
+{% include nav_basics.html %}
 
-### Nonfiction
+## Non-fiction

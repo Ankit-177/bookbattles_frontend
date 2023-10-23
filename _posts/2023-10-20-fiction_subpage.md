@@ -8,6 +8,6 @@ type: ccc
 permalink: /basics/fiction
 ---
 
-{% include nav_sub.html %}
+{% include nav_basics.html %}
 
-### Fiction
+## Fiction

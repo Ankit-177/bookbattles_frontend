@@ -12,8 +12,9 @@ permalink: /basics/books
 
 <table>
     <tr>
-        <td><button><a href="{{site.baseurl}}/basics/fantasy">fantasy</a></button></td>
-        <td><button><a href="{{site.baseurl}}/basics/science_fiction">Science Fiction</a></button></td>
-        <td><button><a href="{{site.baseurl}}/basics/non_fiction">Nonfiction</a></button></td>
+        <td><img src="{{site.baseurl}}/images/logo.png" height="60" title="Frontend" alt=""></td>
+        <td><a href="{{site.baseurl}}/basics/home">Home</a></td>
+        <td><a href="{{site.baseurl}}/basics/fiction">Fiction</a></td>
+        <td><a href="{{site.baseurl}}/basics/home">Non-fiction</a></td>
     </tr>
 </table>
