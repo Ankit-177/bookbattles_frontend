@@ -19,7 +19,7 @@ permalink: /basics/non_fiction
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = "Description for Non Fiction";
+document.getElementById("demo").innerHTML = "Description for Non-Fiction";
 </script>
 
 </body>
