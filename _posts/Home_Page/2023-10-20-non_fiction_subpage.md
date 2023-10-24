@@ -23,7 +23,7 @@ permalink: /basics/non_fiction
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #000000;
 }
 
 .dropdown {
@@ -34,7 +34,7 @@ permalink: /basics/non_fiction
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #808080;
+  background-color: #FFD700;
   min-width: 160px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
