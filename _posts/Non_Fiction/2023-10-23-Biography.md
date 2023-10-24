@@ -10,4 +10,4 @@ permalink: /basics/Biography
 
 {% include nav_non_fiction.html %}
 
-### Biography
+Biography
