@@ -6,12 +6,106 @@
     }
 </style>
 
+<style>/*styling for button*/
+  .button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: rgb(57, 244, 10);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+
+}
+.button2:hover {/*creates a shadow when hovering over it*/
+  box-shadow: 0 12px 16px 0 rgba(30, 255, 0, 0.19),0 17px 50px 0 rgba(30, 255, 0, 0.19);
+}
+</style>
+
+<style>/* Dropdown Button */
+    .dropbtn {
+      background-color: #3498DB;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #2980B9;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+</style>
+
 <table>
     <tr>
         <td><img src="{{site.baseurl}}/images/logo.png" height="60" title="Frontend" alt=""></td>
         <td><a href="{{site.baseurl}}/basics/home">Home</a></td>
-        <td><a href="{{site.baseurl}}/basics/fiction">Fiction</a></td>
-        <td><a href="{{site.baseurl}}/basics/non_fiction">Non-fiction</a></td>
+        <td><button class="button button2"><a href="{{site.baseurl}}/basics/fiction">Fiction</a></button></td>
+        <td><div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn button button2">Non_Fiction</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="{{site.baseurl}}/basics/Biography">Biography</a>
+              <a href="{{site.baseurl}}/basics/Memoir_Autobiography ">Memoir_Autobiography</a>
+              <a href="{{site.baseurl}}/basics/Self-Help">Self-Help</a>
+            </div>
+          </div></td>
     </tr>
 </table>
-
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+</script>

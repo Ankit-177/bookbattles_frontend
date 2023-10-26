@@ -8,6 +8,18 @@ type: ccc
 permalink: /basics/Biography
 ---
 <!-- the line below 'pulls' the info from the file nav_non_fiction.html to create a table-->
-{% include nav_non_fiction.html %}
+{% include nav_basics.html %}
 <!-- This is where the code goes for the subpage of the subpage 'non_fiction'-->
-Biography
+<html>
+<body>
+
+
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Description for Biography";
+</script>
+
+</body>
+</html>
