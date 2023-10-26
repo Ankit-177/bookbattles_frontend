@@ -2,7 +2,7 @@
 layout: post
 hide: false
 comments : true
-title: Fiction
+title: Graphic Novel
 description: A genre of fiction books.
 type: ccc
 permalink: /basics/graphicnovel
