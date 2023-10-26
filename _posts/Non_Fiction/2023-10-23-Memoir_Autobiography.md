@@ -42,7 +42,7 @@ permalink: /basics/Memoir_Autobiography
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(function(book) {
-                        if (book.genres.includes("memoir autobiography")) {
+                        if (book.genres.includes("autobiography")) {
                             var table_row = document.createElement("tr");
                             var author = document.createElement("td");
                             var title = document.createElement("td");
