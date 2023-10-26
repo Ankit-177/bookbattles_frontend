@@ -2,8 +2,8 @@
 layout: post
 hide: false
 comments : true
-title: Basics of HTML Guide
-description: An introduction to basic HTML, and resources to learn more.
+title: BookBattles - The Fiction Section
+description: Welcome to the fiction section!
 type: ccc
 permalink: /basics/fiction
 ---

@@ -38,3 +38,31 @@
         <td><button class="button button2"><a href="{{site.baseurl}}/basics/youngadult">Young adult</a></button></td>
     </tr>
 </table>
+
+<script>
+  // Function to alphabetically order the sub-categories
+  function orderSubCategories() {
+      var table = document.querySelector("table");
+      var rows = Array.from(table.rows);
+      rows.shift(); // Remove the header row
+
+      rows.sort(function(a, b) {
+          var textA = a.textContent.toLowerCase();
+          var textB = b.textContent.toLowerCase();
+          return textA.localeCompare(textB);
+      });
+
+      // Clear the current table
+      while (table.firstChild) {
+          table.removeChild(table.firstChild);
+      }
+
+      // Add rows back to the table in sorted order
+      rows.forEach(function(row) {
+          table.appendChild(row);
+      });
+  }
+
+  // Call the function to order the sub-categories
+  orderSubCategories();
+</script>
