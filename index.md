@@ -11,36 +11,20 @@ You have the opportunity to rate books and genres, along with commenting on why 
 
 ## [BookBattles Lobby - Start your journey here!](_posts/Home_Page/2023-10-23-Home_Page.md)
 
+
 <html>
 <head>
-    <style>
-        /* Styling the link */
-        a {
-            text-decoration: none; /* Remove the default underline */
-            color: #FF5733; /* Set the text color */
-            font-weight: bold; /* Make the text bold */
-            background-color: #33FF99; /* Set the background color */
-            padding: 5px 10px; /* Add some padding for a button-like effect */
-            border-radius: 5px; /* Add rounded corners */
-            transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
-        }
-
-        /* Styling the link on hover */
-        a:hover {
-            color: #33FF99; /* Change text color on hover */
-            background-color: #FF5733; /* Change background color on hover */
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="_sass/minima/button-style.css"> <!-- Link to your external CSS file -->
 </head>
 <body>
-    <h2 href="_posts/Home_Page/2023-10-23-Home_Page.md">BookBattles Lobby - Start your journey here!</h2>
+    <a class="fancy-link" href="_posts/Home_Page/2023-10-23-Home_Page.md">BookBattles Lobby - Start your journey here!</a>
 </body>
 </html>
 
 
 ## Community Guidelines
 
-1. No bullying
-2. No foul language in comments
+1. No bullying.
+2. No foul language in comments.
 3. No abusing the rating system. Rate books only one time--manipulation of ratings will not be tolerated. 
 4. Have fun and learn something new!

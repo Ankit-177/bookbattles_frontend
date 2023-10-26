@@ -1,0 +1,16 @@
+/* Styling only links with the "fancy-link" class */
+a.fancy-link {
+    text-decoration: none; /* Remove the default underline */
+    color: #FF5733; /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+    background-color: #33FF99; /* Set the background color */
+    padding: 5px 10px; /* Add some padding for a button-like effect */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Styling the link on hover */
+a.fancy-link:hover {
+    color: #33FF99; /* Change text color on hover */
+    background-color: #FF5733; /* Change background color on hover */
+}
