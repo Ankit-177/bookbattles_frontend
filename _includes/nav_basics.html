@@ -77,7 +77,26 @@ transition-duration: 0.4s;
     <tr>
         <td><img src="{{site.baseurl}}/images/bookbattleslogo.ico" height="60" title="© BookBattles" alt=""></td>
         <td><a href="{{site.baseurl}}/basics/home">Home</a></td>
-        <td><button class="button button2"><a href="{{site.baseurl}}/basics/fiction">Fiction</a></button></td>
+        <td><div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn button button2">Fiction</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="{{site.baseurl}}/basics/action">Action and adventure</a>
+            <a href="{{site.baseurl}}/basics/contemporary">Contemporary fiction</a>
+            <a href="{{site.baseurl}}/basics/dystopian">Dystopian</a>
+            <a href="{{site.baseurl}}/basics/fantasy">Fantasy</a>
+            <a href="{{site.baseurl}}/basics/graphicnovel">Graphic novel</a>
+            <a href="{{site.baseurl}}/basics/historical">Historical fiction</a>
+            <a href="{{site.baseurl}}/basics/horror">Horror</a>
+            <a href="{{site.baseurl}}/basics/magicalrealism">Magical realism</a>
+            <a href="{{site.baseurl}}/basics/mystery">Mystery</a>
+            <a href="{{site.baseurl}}/basics/newadult">New adult</a>
+            <a href="{{site.baseurl}}/basics/romance">Romance</a>
+            <a href="{{site.baseurl}}/basics/scifi">Science fiction</a>
+            <a href="{{site.baseurl}}/basics/thriller">Thriller and suspense</a>
+            <a href="{{site.baseurl}}/basics/women">Women's fiction</a>
+            <a href="{{site.baseurl}}/basics/youngadult">Young adult</a>
+          </div>
+        </div></td>
         <td><div class="dropdown">
             <button onclick="myFunction()" class="dropbtn button button2">Non-Fiction</button>
             <div id="myDropdown" class="dropdown-content">

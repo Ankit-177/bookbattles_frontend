@@ -11,6 +11,9 @@ You have the opportunity to rate books and genres, along with commenting on why 
 
 ## [BookBattles Lobby - Start your journey here!](_posts/Home_Page/2023-10-23-Home_Page.md)
 
+## [Genre Information](_posts/2023-10-16-Book_Genres_IPYNB_2_.md)
+
+## [Finding Your Next Read](_posts/2023-10-26-Finding_Popular_Books_IPYNB_2_.md) 
 
 <html>
 <head>

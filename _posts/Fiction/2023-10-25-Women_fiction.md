@@ -8,7 +8,7 @@ type: ccc
 permalink: /basics/women
 ---
 
-{% include nav_fiction.html %}
+{% include nav_basics.html %}
 
 <html>
 <head>
