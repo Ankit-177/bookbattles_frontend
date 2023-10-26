@@ -2,8 +2,8 @@
 layout: post
 hide: false
 comments : true
-title: Non-fiction
-description: An introduction to basic HTML, and resources to learn more.
+title: BookBattles - The Non-fiction Section
+description: Welcome to the non-fiction section!
 type: ccc
 permalink: /basics/non_fiction
 ---
@@ -19,7 +19,7 @@ permalink: /basics/non_fiction
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = "Description for Non Fiction";
+document.getElementById("demo").innerHTML = "Description for Non-Fiction";
 </script>
 
 </body>

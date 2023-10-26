@@ -12,7 +12,7 @@ permalink: /basics/books
 
 <table>
     <tr>
-        <td><img src="{{site.baseurl}}/images/logo.png" height="60" title="Frontend" alt=""></td>
+        <td><img src="{{site.baseurl}}/images/images/images/bookbattleslogo.ico" height="60" title="Frontend" alt=""></td>
         <td><a href="{{site.baseurl}}/basics/home">Home</a></td>
         <td><a href="{{site.baseurl}}/basics/fiction">Fiction</a></td>
         <td><a href="{{site.baseurl}}/basics/home">Non-fiction</a></td>
