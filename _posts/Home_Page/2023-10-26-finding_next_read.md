@@ -5,7 +5,7 @@ comments : true
 title: BookBattles - Finding Your Next Read
 description: What books can you read next?
 type: ccc
-permalink: /basics/fiction
+permalink: /basics/nextread
 ---
 
 <h1>Helpful Sites to Find Popular Books</h1>
