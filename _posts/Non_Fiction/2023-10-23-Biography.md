@@ -67,7 +67,8 @@ permalink: /basics/Biography
 
                             author.innerHTML = book.book_author;
                             title.innerHTML = book.book_title;
-                            ratingCell.innerHTML = '<div class="stars" onclick="rateBook(event)" data-book-id="' + book.id + '">' +
+                            // Note: Removed the inline onclick event, we'll add it dynamically in JavaScript
+                            ratingCell.innerHTML = '<div class="stars" data-book-id="' + book.id + '">' +
                                 '<span class="star" data-value="1">&#9733;</span>' +
                                 '<span class="star" data-value="2">&#9733;</span>' +
                                 '<span class="star" data-value="3">&#9733;</span>' +
@@ -99,7 +100,7 @@ permalink: /basics/Biography
         }
 
         function sendRatingToBackend(bookId, rating) {
-            const backendEndpoint = 'YOUR_BACKEND_RATING_ENDPOINT'; // Replace with your actual rating endpoint
+            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/review/'; // Replace with your actual rating endpoint
             fetch(backendEndpoint, {
                 method: 'POST',
                 headers: {
@@ -122,6 +123,9 @@ permalink: /basics/Biography
         }
 
         fillTable();
+        
+        // Add a click event listener for the star rating component
+        document.body.addEventListener('click', rateBook);
     </script>
 </body>
 </html>
