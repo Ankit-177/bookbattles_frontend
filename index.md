@@ -37,9 +37,11 @@ You have the opportunity to rate books and genres, along with commenting on why 
     </style>
 </head>
 <body>
-    <a class="fancy-button-link" href="/_posts/Home_Page/2023-10-23-Home_Page.md">BookBattles Lobby - Start your journey here!</a>
+    <a class="fancy-button-link" href="_posts/Home_Page/2023-10-23-Home_Page.md">BookBattles Lobby - Start your journey here!</a>
 </body>
-</html>
+</html><br>
+
+[BookBattles Lobby](_posts/Home_Page/2023-10-23-Home_Page.md)
 
     
 <html>
