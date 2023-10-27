@@ -110,14 +110,14 @@ permalink: /basics/Biography
         }
 
         function sendRatingToBackend(bookId, rating) {
-            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/reviews/'; // Replace with your actual rating endpoint
+            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/review/'; // Replace with your actual rating endpoint
             fetch(backendEndpoint, {
                 method: 'POST',
-                mode: 'cors',
+                mode: 'no-cors',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ bookId: bookId, rating: rating }),
+                body: JSON.stringify({ "book_id": bookId, "stars": rating }),
             })
             .then(response => {
                 if (!response.ok) {
