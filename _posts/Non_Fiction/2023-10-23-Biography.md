@@ -58,7 +58,7 @@ permalink: /basics/Biography
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(function(book) {
-                        if (book.genres.includes("self help")) {
+                        if (book.genres.includes("fantasy")) {
                             var table_row = document.createElement("tr");
                             var author = document.createElement("td");
                             var title = document.createElement("td");
@@ -111,9 +111,10 @@ permalink: /basics/Biography
         }
 
         function sendRatingToBackend(bookId, rating) {
-            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/review/'; // Replace with your actual rating endpoint
+            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/reviews/'; // Replace with your actual rating endpoint
             fetch(backendEndpoint, {
                 method: 'POST',
+                mode: 'cors',
                 headers: {
                     'Content-Type': 'application/json',
                 },
