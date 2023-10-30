@@ -43,7 +43,7 @@ permalink: /basics/action
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(function(book) {
-                        if (book.genres.includes("action")) {
+                        if (book.genres.includes("action and adventure")) {
                             var table_row = document.createElement("tr");
                             var author = document.createElement("td");
                             var title = document.createElement("td");
