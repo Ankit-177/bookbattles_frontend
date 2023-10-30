@@ -2,7 +2,7 @@
 layout: post
 hide: false
 comments : true
-title: Fiction
+title: Young Adult
 description: A genre of fiction books.
 type: ccc
 permalink: /basics/youngadult

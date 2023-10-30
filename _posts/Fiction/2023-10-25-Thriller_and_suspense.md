@@ -2,7 +2,7 @@
 layout: post
 hide: false
 comments : true
-title: Fiction
+title: Thriller and Suspense
 description: A genre of fiction books.
 type: ccc
 permalink: /basics/thriller

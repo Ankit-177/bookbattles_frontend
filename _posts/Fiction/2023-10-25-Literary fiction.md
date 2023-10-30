@@ -2,7 +2,7 @@
 layout: post
 hide: false
 comments : true
-title: Fiction
+title: Literary Fiction
 description: A genre of fiction books.
 type: ccc
 permalink: /basics/literary

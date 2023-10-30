@@ -2,7 +2,7 @@
 layout: post
 hide: false
 comments : true
-title: Fiction
+title: Historical Fiction
 description: A genre of fiction books.
 type: ccc
 permalink: /basics/historical
