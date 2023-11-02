@@ -1,10 +1,10 @@
 ---
+layout: post
 comments: true
-layout: notebook
-title: Review ticket 1
-description: A key to development in this class is the association VSCode to a GitHub pages project.  This is where students update assignments and present work.
+title: Review ticket
+courses: { compsci: {week: 3} }
 type: hacks
-courses: { csp: {week: 8} }
+
 ---
 
 > - ### Lists of achivements
