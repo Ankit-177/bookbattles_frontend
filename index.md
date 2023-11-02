@@ -37,7 +37,7 @@ You have the opportunity to rate books and genres, along with commenting on why 
     </style>
 </head>
 <body>
-    <a class="fancy-button-link" href="http://127.0.0.1:4100/frontend_shared//basics/home">BookBattles Lobby - Start your journey here!</a>
+    <a class="button-link" href="http://127.0.0.1:4100/frontend_shared//basics/home">BookBattles Lobby - Start your journey here!</a>
 </body>
 </html> <br>
 
