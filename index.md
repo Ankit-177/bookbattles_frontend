@@ -66,7 +66,7 @@ You have the opportunity to rate books and genres, along with commenting on why 
     </style>
 </head>
 <body>
-    <a class="button-link" href="http://127.0.0.1:4100/frontend_shared//2023/10/16/Book_Genres_IPYNB_2_.html">Explore Bbook Genres</a>
+    <a class="button-link" href="http://127.0.0.1:4100/frontend_shared//2023/10/16/Book_Genres_IPYNB_2_.html">Explore Book Genres</a>
 </body>
 </html><br>
 
