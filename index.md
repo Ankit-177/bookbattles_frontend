@@ -9,12 +9,94 @@ Here in Book Battles you'll find all-things books. You can explore different gen
 
 You have the opportunity to rate books and genres, along with commenting on why you like certain books. The goal is to see which books and genres are the most popular among our users--it's a battle of the books to try to show why your favorite reads are the best!
 
-## [BookBattles Lobby - Start your journey here!](_posts/Home_Page/2023-10-23-Home_Page.md)
+<html>
+<head>
+    <style>
+        /* Style the link as a fancy button */
+        .fancy-button-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #FF00FF;
+            border-radius: 50px; /* Rounded shape */
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
 
-## [Genre Information](_posts/2023-10-16-Book_Genres_IPYNB_2_.md)
+        /* Change the button style on hover */
+        .fancy-button-link:hover {
+            background-color: #0056b3;
+            color: #fff;
+            transform: scale(1.05); /* Scale up the button on hover */
+        }
+    </style>
+</head>
+<body>
+    <a class="fancy-button-link" href="/_posts/Home_Page/2023-10-23-Home_Page.md">BookBattles Lobby - Start your journey here!</a>
+</body>
+</html>
 
-## [Finding Your Next Read](_posts/2023-10-26-Finding_Popular_Books_IPYNB_2_.md) 
+    
+<html>
+<head>
+    <style>
+        /* Style the link as a button */
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px; /* Adjust the padding to your liking */
+            background-color: #FF00FF; /* Button background color */
+            color: #fff; /* Button text color */
+            text-decoration: none;
+            border: none;
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer;
+            text-align: center;
+            font-size: 16px;
+        }
 
+        /* Change the button style on hover */
+        .button-link:hover {
+            background-color: #0056b3; /* Button background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <a class="button-link" href="_posts/2023-10-16-Book_Genres_IPYNB_2_.md">Explore book genres</a>
+</body>
+</html><br>
+
+<html>
+<head>
+    <style>
+        /* Style the link as a button */
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px; /* Adjust the padding to your liking */
+            background-color: #FF00FF; /* Button background color */
+            color: #fff; /* Button text color */
+            text-decoration: none;
+            border: none;
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        /* Change the button style on hover */
+        .button-link:hover {
+            background-color: #0056b3; /* Button background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <a class="button-link" href="_posts/2023-10-26-Finding_Popular_Books_IPYNB_2_.md">Finding your next read</a>
+</body>
+</html>
 
 ## Community Guidelines
 
