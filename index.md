@@ -95,8 +95,14 @@ You have the opportunity to rate books and genres, along with commenting on why 
 </head>
 <body>
     <a class="button-link" href="http://127.0.0.1:4100/frontend_shared/basics/nextread">Finding your next read</a>
+</body><br><br><br><br>
+
+<body>
+    <a class="button-link" href="http://127.0.0.1:4100/frontend_shared/basics/blinddate">Blind Book Date</a>
 </body>
+
 </html>
+
 
 ## Community Guidelines
 
