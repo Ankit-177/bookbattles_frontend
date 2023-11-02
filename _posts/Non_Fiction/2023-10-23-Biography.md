@@ -67,13 +67,8 @@ permalink: /basics/Biography
 
                             author.innerHTML = book.book_author;
                             title.innerHTML = book.book_title;
-                            ratingCell.innerHTML = '<div class="stars" onclick="rateBook(event)" data-book-id="' + book.id + '">' +
-                                '<span class="star" data-value="1">&#9733;</span>' +
-                                '<span class="star" data-value="2">&#9733;</span>' +
-                                '<span class="star" data-value="3">&#9733;</span>' +
-                                '<span class="star" data-value="4">&#9733;</span>' +
-                                '<span class="star" data-value="5">&#9733;</span>' +
-                                '</div>';
+                            const ratingValue = book.rating || 0; // Default to 0 if no rating is available
+                            ratingCell.innerHTML = generateStarRatingHTML(book.id, ratingValue);
                             coverCell.innerHTML = '<img src="' + book.cover_url + '" alt="Book Cover" style="width:50px;height:50px;">';
 
                             table_row.appendChild(author);
@@ -85,9 +80,20 @@ permalink: /basics/Biography
                         }
                     });
 
+                    // Initialize DataTables after filling the table
                     $('#demo').DataTable();
                 })
                 .catch(error => console.error('Error fetching data:', error));
+        }
+
+        function generateStarRatingHTML(bookId, rating) {
+            const starsHTML = Array.from({ length: 5 }, (_, index) => {
+                const starValue = index + 1;
+                const isActive = starValue <= rating ? 'active' : '';
+                return `<span class="star ${isActive}" data-value="${starValue}">&#9733;</span>`;
+            }).join('');
+
+            return `<div class="stars" data-book-id="${bookId}">${starsHTML}</div>`;
         }
 
         function rateBook(event) {
@@ -99,7 +105,7 @@ permalink: /basics/Biography
         }
 
         function sendRatingToBackend(bookId, rating) {
-            const backendEndpoint = 'YOUR_BACKEND_RATING_ENDPOINT'; // Replace with your actual rating endpoint
+            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/reviews'; // Replace with your actual rating endpoint
             fetch(backendEndpoint, {
                 method: 'POST',
                 headers: {
@@ -115,12 +121,32 @@ permalink: /basics/Biography
             })
             .then(data => {
                 console.log('Rating sent successfully:', data);
+                updateStarRating(bookId, rating); // Update the displayed star rating after submitting a new rating
             })
             .catch(error => {
                 console.error('Error sending rating:', error);
             });
         }
 
+        function updateStarRating(bookId, rating) {
+            const starsContainer = document.querySelector(`[data-book-id="${bookId}"]`);
+            const stars = starsContainer.querySelectorAll('.star');
+
+            stars.forEach((star, index) => {
+                const starValue = index + 1;
+                const isActive = starValue <= rating ? 'active' : '';
+                star.className = `star ${isActive}`;
+            });
+        }
+
+        // Delegate the event handling to the document level
+        document.addEventListener('click', function(event) {
+            if (event.target.matches('.stars')) {
+                rateBook(event);
+            }
+        });
+
+        // Call fillTable after defining functions
         fillTable();
     </script>
 </body>
