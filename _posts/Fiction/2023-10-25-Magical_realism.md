@@ -8,7 +8,7 @@ type: ccc
 permalink: /basics/magicalrealism
 ---
 
-{% include nav_fiction.html %}
+{% include nav_basics.html %}
 
 <html>
 <head>
