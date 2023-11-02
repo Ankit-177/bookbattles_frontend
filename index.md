@@ -15,15 +15,6 @@ You have the opportunity to rate books and genres, along with commenting on why 
 
 ## [Finding Your Next Read](_posts/2023-10-26-Finding_Popular_Books_IPYNB_2_.md) 
 
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="_sass/minima/button-style.css"> <!-- Link to your external CSS file -->
-</head>
-<body>
-    <a class="fancy-link" href="_posts/Home_Page/2023-10-23-Home_Page.md">BookBattles Lobby - Start your journey here!</a>
-</body>
-</html>
-
 
 ## Community Guidelines
 

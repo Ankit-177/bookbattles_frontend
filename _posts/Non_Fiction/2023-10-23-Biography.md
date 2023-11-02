@@ -67,8 +67,14 @@ permalink: /basics/Biography
 
                             author.innerHTML = book.book_author;
                             title.innerHTML = book.book_title;
-                            const ratingValue = book.rating || 0; // Default to 0 if no rating is available
-                            ratingCell.innerHTML = generateStarRatingHTML(book.id, ratingValue);
+                            // Note: Removed the inline onclick event, we'll add it dynamically in JavaScript
+                            ratingCell.innerHTML = '<div class="stars" data-book-id="' + book.id + '">' +
+                                '<span class="star" data-value="1">&#9733;</span>' +
+                                '<span class="star" data-value="2">&#9733;</span>' +
+                                '<span class="star" data-value="3">&#9733;</span>' +
+                                '<span class="star" data-value="4">&#9733;</span>' +
+                                '<span class="star" data-value="5">&#9733;</span>' +
+                                '</div>';
                             coverCell.innerHTML = '<img src="' + book.cover_url + '" alt="Book Cover" style="width:50px;height:50px;">';
 
                             table_row.appendChild(author);
@@ -105,7 +111,7 @@ permalink: /basics/Biography
         }
 
         function sendRatingToBackend(bookId, rating) {
-            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/reviews'; // Replace with your actual rating endpoint
+            const backendEndpoint = 'https://bookbattles.stu.nighthawkcodingsociety.com/api/review/'; // Replace with your actual rating endpoint
             fetch(backendEndpoint, {
                 method: 'POST',
                 headers: {
@@ -148,6 +154,9 @@ permalink: /basics/Biography
 
         // Call fillTable after defining functions
         fillTable();
+        
+        // Add a click event listener for the star rating component
+        document.body.addEventListener('click', rateBook);
     </script>
 </body>
 </html>
