@@ -20,14 +20,14 @@ permalink: /basics/blinddate
             padding: 20px;
         }
 
-        #book-box {
+        .book-box {
             background-color: #fff;
             border-radius: 5px;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
-        #new-book {
+        .new-book {
             background-color: #007BFF;
             color: #fff;
             border: none;
@@ -35,7 +35,7 @@ permalink: /basics/blinddate
             cursor: pointer;
         }
 
-        #new-book:hover {
+        .new-book:hover {
             background-color: #0056b3;
         }
     </style>
