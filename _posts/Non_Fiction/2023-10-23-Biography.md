@@ -10,7 +10,6 @@ permalink: /basics/Biography
 <!-- the line below 'pulls' the info from the file nav_non_fiction.html to create a table-->
 {% include nav_basics.html %}
 <!-- This is where the code goes for the subpage of the subpage 'non_fiction'-->
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- load jQuery and DataTables output style and scripts -->
@@ -58,7 +57,7 @@ permalink: /basics/Biography
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(function(book) {
-                        if (book.genres.includes("fantasy")) {
+                        if (book.genres.includes("biography")) {
                             var table_row = document.createElement("tr");
                             var author = document.createElement("td");
                             var title = document.createElement("td");
