@@ -37,9 +37,9 @@ You have the opportunity to rate books and genres, along with commenting on why 
     </style>
 </head>
 <body>
-    <a class="fancy-button-link" href="/_posts/Home_Page/2023-10-23-Home_Page.md">BookBattles Lobby - Start your journey here!</a>
+    <a class="fancy-button-link" href="http://127.0.0.1:4100/frontend_shared//basics/home">BookBattles Lobby - Start your journey here!</a>
 </body>
-</html>
+</html> <br>
 
     
 <html>
@@ -66,7 +66,7 @@ You have the opportunity to rate books and genres, along with commenting on why 
     </style>
 </head>
 <body>
-    <a class="button-link" href="_posts/2023-10-16-Book_Genres_IPYNB_2_.md">Explore book genres</a>
+    <a class="button-link" href="http://127.0.0.1:4100/frontend_shared//2023/10/16/Book_Genres_IPYNB_2_.html">Explore book genres</a>
 </body>
 </html><br>
 
@@ -94,7 +94,7 @@ You have the opportunity to rate books and genres, along with commenting on why 
     </style>
 </head>
 <body>
-    <a class="button-link" href="_posts/2023-10-26-Finding_Popular_Books_IPYNB_2_.md">Finding your next read</a>
+    <a class="button-link" href="http://127.0.0.1:4100/frontend_shared/basics/nextread">Finding your next read</a>
 </body>
 </html>
 
