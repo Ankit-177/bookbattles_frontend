@@ -2,7 +2,7 @@ title: Book-Battles
 description: "August 2023 to June 2024"
 owner_name: Nikki Hekmat
 github_username: nikkihekmat
-github_repo: "Nighthawk-Pages"
+github_repo: "bookbattles_frontend"
 baseurl: "/frontend_shared"
 remote_theme: jekyll/minima
 minima:
